@@ -1,6 +1,6 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
-int max(int a[],int n);
+int max(int [],int );
 int main()
 {int n,a[n];
 int largest=max(a,n);
