@@ -2,24 +2,24 @@
 #include <stdio.h>
 int max(int [],int );
 int main()
-{int n,a[n];
-int largest=max(a,n);
+{int n,x[n];
+int largest=max(x,n);
 printf("\nThe largest numberin this integer array is %d",largest);
 }
-int max(int a[],int n)
+int max(int x[],int n)
 {
 	int largest;
 printf("enter the size of the array");
 scanf("%d",&n);
 printf("enter the array elements :\n");
 for(int i=0;i<n;i++){
-	scanf("%d",&a[i]);}
-	largest=a[0];
+	scanf("%d",&x[i]);}
+	largest=x[0];
 
 for(int i=0;i<n;i++){
-	if(a[i]>largest)
+	if(x[i]>largest)
 	{
-	largest=a[i];
+	largest=x[i];
 	}}
 	return largest;
 }
