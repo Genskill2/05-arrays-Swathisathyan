@@ -6,7 +6,7 @@ int main()
 int largest=max(a,n);
 printf("\nThe largest numberin this integer array is %d",largest);
 }
-max(int a[],int n)
+int max(int a[],int n)
 {
 	int largest;
 printf("enter the size of the array");
