@@ -3,33 +3,33 @@ int max(int x[],int n)
 {
 int max=0;
 for (int i=0;i<n;i++)
-	{
+ { 
 if (x[i]>max)
 max=x[i];
-	}
+ }
 	return (max);
 }
 
 int min(int x[],int n)
 {
-	int min=x[0];
-	for(int i=0;i<n;i++)
-	{
-		if(x[i]<min)
-			min=x[i];
-			}
+int min=x[0];
+ for(int i=0;i<n;i++)
+   {
+	if(x[i]<min)
+	min=x[i];
+   }
 	return (min);
 }
 float average(int x[],int n)
 {
-	int sum=0;
-	float avg=0;
-	for(int i=0;i<n;i++)
-	{
-		sum+=x[i];
-	}
-	avg=sum/n;
-	return avg;
+int sum=0;
+float avg=0;
+   for(int i=0;i<n;i++)
+   {
+	sum+=x[i];
+   }
+avg=sum/n;
+return avg;
 }
 int mode(int x[],int n)
 {
@@ -57,7 +57,7 @@ int mode(int x[],int n)
 	return (flag);
 }
     int isprime(int i)
-    {
+ {
 	int flag=0;
 			for(int j=2;j<i;j++)
 			{
